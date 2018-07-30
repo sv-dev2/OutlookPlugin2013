@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabNewMailMessage">
+        <group id="MyGroup">
+          <button id="btnLogo" getImage="imageSuper_GetImage" label="Check Domain" onAction="Button_Click" size="large"
+           screentip="Check Domain"/>
+          <!--<img Source="admin.png" />-->
+
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
